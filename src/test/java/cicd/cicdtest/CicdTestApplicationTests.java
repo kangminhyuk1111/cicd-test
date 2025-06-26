@@ -10,4 +10,9 @@ class CicdTestApplicationTests {
   void contextLoads() {
   }
 
+  @Test
+  void cicdTest() {
+    System.out.println("CI/CD TEST");
+  }
+
 }
